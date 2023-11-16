@@ -150,6 +150,11 @@ module.exports = {
     'jest/no-disabled-tests': 'error',
     'jest/no-identical-title': 'error',
     'jest/valid-expect': 'error',
-    'jest/expect-expect': 'error',
+    'jest/expect-expect': [
+      'error',
+      {
+        assertFunctionNames: ['expect', 'request.**.expect'],
+      },
+    ],
   },
 };
