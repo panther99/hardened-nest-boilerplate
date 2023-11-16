@@ -2,9 +2,6 @@
   <a href="http://nestjs.com/" target="blank"><img src="docs/assets/logo.png" width="200" alt="Hardened Nest Boilerplate Logo" /></a>
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-
 <h3 align="center">
   A Nest boilerplate with hardened configuration
 </h3>
