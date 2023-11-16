@@ -112,6 +112,11 @@ module.exports = {
           "CallExpression[callee.name='setTimeout'][arguments.length!=2]",
         message: 'setTimeout must always be invoked with two arguments.',
       },
+      {
+        selector: "Literal[raw='null']",
+        message:
+          'Usage of null is prohibited; use undefined instead (or Optional.None from @swan-io/boxed package)',
+      },
     ],
   },
 };
