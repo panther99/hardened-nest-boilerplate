@@ -126,6 +126,16 @@ module.exports = {
       },
     ],
     'import/no-unresolved': 'error',
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: [
+          '**/*.spec.ts',
+          '**/*.e2e-spec.ts',
+          'src/types/**/*.ts',
+        ],
+      },
+    ],
     'import/order': [
       'error',
       {
