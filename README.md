@@ -5,7 +5,11 @@
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
-  <p align="center">🛡️ Nest boilerplate with hardened configuration</p>
+<h3 align="center">
+  A Nest boilerplate with hardened configuration
+</h3>
+
+---
 
 ## Description
 
@@ -13,7 +17,8 @@ This is a modified boilerplate based on [Nest](https://github.com/nestjs/nest) f
 
 It includes the following:
 
-* [ts-reset](https://github.com/total-typescript/ts-reset)
+* [ts-reset](https://www.totaltypescript.com/ts-reset) for improved built-in typings
+* [@swan-io/boxed](https://swan-io.github.io/boxed/) for `Option`, `Result` and other useful utility types
 * AirBnB's ESLint configuration with `null` disabled and extended with:
   * Configuration for imports
   * Configuration for Jest
