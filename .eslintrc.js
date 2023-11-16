@@ -5,7 +5,12 @@ module.exports = {
     tsconfigRootDir: __dirname,
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint/eslint-plugin', 'import', 'unused-imports'],
+  plugins: [
+    '@typescript-eslint/eslint-plugin',
+    'import',
+    'unused-imports',
+    'jest',
+  ],
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
@@ -142,5 +147,9 @@ module.exports = {
         argsIgnorePattern: '^_',
       },
     ],
+    'jest/no-disabled-tests': 'error',
+    'jest/no-identical-title': 'error',
+    'jest/valid-expect': 'error',
+    'jest/expect-expect': 'error',
   },
 };
