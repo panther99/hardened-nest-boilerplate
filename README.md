@@ -22,3 +22,7 @@ It includes the following:
 ## Why?
 
 This boilerplate was created with the intention of allowing Nest developers to work on their applications without having to worry about the most common pitfalls of JavaScript and TypeScript during development and code reviews. It could be tuned based on user's preferences.
+
+## Credits
+
+Texture of the logo has been designed by [Textures4Photoshop](https://www.textures4photoshop.com).
